@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props" />
+  <Import Project="..\..\configureawait.props" />
+  
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Rc.XingApiClientNet</RootNamespace>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Rc.XingApiClientNet.Shared\Rc.XingApiClientNet.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
